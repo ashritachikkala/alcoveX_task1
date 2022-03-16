@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(246, 245, 245);
+    font-family: 'Poppins', sans-serif;
+    
+}
+.navbar{
+    padding: 3vh;
+    background-color: #F6F5F5;
+}
+
+.logo{
+    height: 40px;
+}
+
+.hireBtn{
+    padding: 6px 12px;
+    color: #1687a7;
+    border: 1px solid #1687a7;
+}
+
+.hireBtn:hover{
+    background-color: #1687a7;
+    color: #F6F5F5;
+}
+.mainHead{
+    padding-top: 10vh;
+    margin: 0px 99.6px;
+}
+
+.mainText{
+    color: #1687a7;
+    font-size: 68px;
+ 
+    font-weight: bolder;
+}
+
+.mainsubText{
+    color: #276678;
+    font-size: 26px;
+    
+}
+
+.mainBtns{
+    
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+    
+}
+
+.findBtn{
+    background-color: #1687a7;
+    color: #F6F5F5;
+    font-size: 20px;
+    border: 1px solid #1687a7;
+    margin: 0px;
+}
+
+.findBtn:hover{
+    background-color: #F6F5F5;
+    color: #1687a7;
+}
+
+.iconBtns{
+    color: #1687a7;
+    border: 1px solid #1687a7;
+    
+    
+}
+
+.iconBtns:hover{
+    color: #F6F5F5;
+    background-color: #1687a7;
+    
+}
+
+.mainImg{
+    
+    margin: 0px 0px 0px 108px;
+    
+}
+
+.mainImgsubclass{
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.line{
+    width: 100%;
+    color: #1687a7;
+}

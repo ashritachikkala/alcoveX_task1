@@ -12,13 +12,13 @@ body{
     height: 40px;
 }
 
-.hireBtn{
+.hireBtn, .projBtn{
     padding: 6px 12px;
     color: #1687a7;
     border: 1px solid #1687a7;
 }
 
-.hireBtn:hover{
+.hireBtn:hover, .projBtn:hover{
     background-color: #1687a7;
     color: #F6F5F5;
 }
@@ -73,7 +73,7 @@ body{
     
 }
 
-.mainImg{
+.mainImg, .projImg, .projTwo{
     
     margin: 0px 0px 0px 108px;
     
@@ -84,9 +84,48 @@ body{
     height: auto;
 }
 
-
-
 .line{
     width: 100%;
     color: #1687a7;
+}
+
+.projHead, .projDesc, .detailsQue {
+    color: #1687a7;
+}
+
+.projHead, .detailsQue {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.detailsDesc{
+    color: #276678;
+}
+@media (min-width: 768px){
+.projHead, .detailsQue {
+        font-size: 26px;
+        font-weight: bold;
+    }
+.projDesc, .detailsDesc{
+        font-size: 16px;
+    }
+}
+
+.projMain{
+    align-items: center;
+}
+
+.projTwo{
+    text-align: right;
+}
+
+.footText{
+    font-weight: bolder;
+    color: #276678;
+    font-size: 16px;
+}
+
+.fooTer{
+    padding: 3vh;
+    background-color: #F6F5F5;
 }
